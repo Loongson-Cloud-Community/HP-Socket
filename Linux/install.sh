@@ -100,6 +100,8 @@ check_platform()
 		PLATFORM="x86"
 	elif [[ "$1" =~ "arm" ]]; then
 		PLATFORM="ARM"
+	elif [[ "$1" =~ "loongarch64" ]]; then
+                PLATFORM="LOONGARCH64"
 	fi
 }
 
